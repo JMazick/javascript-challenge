@@ -20,15 +20,21 @@ var trow = tbody.append("tr");
     tdata.text(value);
 
 
-// // Select the button
+// Getting a reference to the button on the page with the id property set to `click-me`
 var button = d3.select("#filter-btn");
+// Getting a reference to the input element on the page with the id property set to 'input-field'
+var inputElement = d3.select("#datetime");
+// var inputField = d3.select("#input-field");
+
+// // Select the button
+// var button = d3.select("#filter-btn");
 
 // // Select the form
 var form = d3.select("#form-groups");
 
 // // Create event handlers 
-button.on("click", runEnter);
-form.on("submit",runEnter);
+// button.on("click", runEnter);
+// form.on("submit",runEnter);
 
 // // Complete the event handler function for the form
 // function runEnter() {
